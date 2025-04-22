@@ -18,11 +18,7 @@ venom
 
 function start(client) {
   client.onMessage(async (message) => {
-    if (
-      message.body &&
-      message.isGroupMsg === false &&
-      message.from === "553598794340@c.us"
-    ) {
+    if (message.body && message.isGroupMsg === false) {
       const response = await processMessage(message.body);
       console.log(response);
 
