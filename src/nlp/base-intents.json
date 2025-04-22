@@ -1,0 +1,54 @@
+[
+  {
+    "intent": "greeting",
+    "utterances": [
+      "Oi.",
+      "Oi!",
+      "oi",
+      "olá",
+      "oi, tudo bem?",
+      "bom dia",
+      "bom dia, tudo bem?",
+      "boa tarde",
+      "boa tarde, tudo bem?",
+      "boa noite",
+      "boa noite, tudo bem?",
+      "fala comigo",
+      "eae",
+      "opa"
+    ],
+    "answers": ["Olá, como posso te ajudar?"]
+  },
+  {
+    "intent": "mark_consultation",
+    "utterances": [
+      "Oi, quero marcar uma consulta",
+      "Oi! Tem vaga para essa semana?",
+      "oi, quero marcar uma consulta",
+      "olá, tem vaga para essa semana",
+      "queria marca para uma consulta",
+      "bom dia, tem vaga para hoje?",
+      "bom dia, quero marcar uma consulta para hoje?",
+      "quero marcar uma consulta",
+      "tem vaga para hoje?",
+      "tem vaga para essa semana?"
+    ],
+    "answers": ["Olá! Vou verificar se tem vaga."]
+  },
+  {
+    "intent": "confirm_time",
+    "utterances": [
+      "09:00",
+      "10:00",
+      "14:00",
+      "15:00",
+      "16:00",
+      "9h",
+      "10h",
+      "14h",
+      "15h",
+      "16h"
+    ],
+    "answers": ["Horário confirmado!"]
+  }
+]
